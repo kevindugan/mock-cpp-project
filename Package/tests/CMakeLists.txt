@@ -10,4 +10,4 @@ function(add_mpi_test test_name num_procs link_libraries)
     add_test(NAME ${test_name} COMMAND ${MPIEXEC} ${test_parameters})
 endfunction(add_mpi_test)
 
-add_mpi_test(package 4 "${libraries}")
+add_mpi_test(package 2 "${libraries}")

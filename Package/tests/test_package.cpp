@@ -4,7 +4,7 @@ int main(int argc, char **argv){
     MPI_Init(&argc, &argv);
     Package init;
 
-    if (init.size() != 4){
+    if (init.size() != 2){
         MPI_Finalize();
         return 1;
     }
